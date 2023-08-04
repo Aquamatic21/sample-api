@@ -11,6 +11,6 @@ spec:
             serviceName: frontend-svc
             servicePort: 3000
         - path: /
-          backend:
+          backend: 
             serviceName: static-svc
             servicePort: 80
